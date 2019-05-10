@@ -45,6 +45,56 @@ public class ShadowCardView extends FrameLayout {
         initView(context, attrs);
     }
 
+    public ShadowCardView setShadowColor(int shadowColor){
+        this.shadowColor=shadowColor;
+        return this;
+    }
+
+    public ShadowCardView setCardColor(int cardColor){
+        this.cardColor=cardColor;
+        return this;
+    }
+
+    public ShadowCardView setCornersRadius(int cornersRadius){
+        this.cornersRadius=cornersRadius;
+        return this;
+    }
+
+    public ShadowCardView setShadowRadius(int shadowRadius){
+        this.shadowRadius=shadowRadius;
+        return this;
+    }
+
+    public ShadowCardView setShadowTopHeight(int shadowTopHeight){
+        this.shadowTopHeight=shadowTopHeight;
+        return this;
+    }
+
+    public ShadowCardView setShadowLeftHeight(int shadowLeftHeight){
+        this.shadowLeftHeight=shadowLeftHeight;
+        return this;
+    }
+
+    public ShadowCardView setShadowRightHeight(int shadowRightHeight){
+        this.shadowRightHeight=shadowRightHeight;
+        return this;
+    }
+
+    public ShadowCardView setShadowBottomHeight(int shadowBottomHeight){
+        this.shadowBottomHeight=shadowBottomHeight;
+        return this;
+    }
+
+    public ShadowCardView setShadowOffsetY(int shadowOffsetY){
+        this.shadowOffsetY=shadowOffsetY;
+        return this;
+    }
+
+    public ShadowCardView setShadowOffsetX(int shadowOffsetX){
+        this.shadowOffsetX=shadowOffsetX;
+        return this;
+    }
+
     private void initView(Context context,AttributeSet attrs){
         TypedArray typedArray=context.obtainStyledAttributes(attrs,R.styleable.ShadowCardView);
         cornersRadius=typedArray.getDimensionPixelSize(R.styleable.ShadowCardView_cornersRadius,CORNERS_RADIUS);
