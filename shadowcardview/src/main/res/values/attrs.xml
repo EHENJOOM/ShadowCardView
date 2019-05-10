@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShadowCardView">
+        <attr name="cornersRadius" format="dimension"/>
+        <attr name="shadowLeftHeight" format="dimension"/>
+        <attr name="shadowTopHeight" format="dimension"/>
+        <attr name="shadowRightHeight" format="dimension"/>
+        <attr name="shadowBottomHeight" format="dimension"/>
+        <attr name="shadowOffsetX" format="dimension"/>
+        <attr name="shadowOffsetY" format="dimension"/>
+        <attr name="cardColor" format="color"/>
+        <attr name="shadowColor" format="color"/>
+        <attr name="shadowRadius" format="integer"/>
+    </declare-styleable>
+</resources>
